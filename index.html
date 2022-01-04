@@ -1,56 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <link rel="stylesheet" href="./style.css">
+    <title>Botão</title>
 
-        body{
-            background-color: #353535;
-        }
-
-        #button{
-            margin: 236px auto;
-            background-color: #a2d2ff;
-            height: 100px;
-            width: 249px;
-            line-height: 100px;
-            text-align: center;
-            border-radius: 46px;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 30px;
-            cursor: pointer;
-        }
-
-    </style>
 </head>
 <body>
+
     <div id="button">Botão</div>
 
-    <script>
-        var but = document.querySelector('div#button')
+    <script type="text/javascript" src="./script.js"></script>
 
-        but.addEventListener('click', clicar)
-        but.addEventListener('mouseenter', entrar)
-        but.addEventListener('mouseout', sair)
-        
-        function clicar() {
-            but.innerText = 'Clicou!'
-            but.style.background = '#cdb4db'
-        }
-
-        function entrar() {
-            but.innerText = 'Entrou!'
-            but.style.background = '#ffafcc'
-        }
-
-        function sair() {
-            but.innerText = 'Saiu!'
-            but.style.background = '#bde0fe'
-        }
-
-    </script>
 </body>
 </html>

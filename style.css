@@ -1,0 +1,16 @@
+body{
+    background-color: #353535;
+}
+
+#button{
+    margin: 236px auto;
+    background-color: #a2d2ff;
+    height: 100px;
+    width: 249px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 46px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    cursor: pointer;
+}
